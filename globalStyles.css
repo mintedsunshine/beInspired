@@ -64,7 +64,7 @@ p {
     margin-top: 50px;
 }
 
-.flexContainer div {
+.column {
     /* background-color: white; */
     background-image: url("whitePaper.jpg");
     background-size: contain;
@@ -72,4 +72,5 @@ p {
     border-radius: 40px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
     margin: 20px;
+    border: 1px solid #ccc;
 }
