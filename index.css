@@ -1,6 +1,5 @@
 
 .column {
-    padding: 20px;
     border: 1px solid #ccc;
 }
 .leftColumn {
@@ -28,7 +27,5 @@
     .rightColumn {
         order: 3;
     }
-    .verticalDisplayAds {
-        width: 90%;
-    }
+    
 }
