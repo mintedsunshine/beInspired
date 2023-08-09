@@ -2,5 +2,6 @@
     margin: 0;
     padding: 0;
     min-width: 336px; /* Adjust the width as needed */
+    max-width: 500px;
     min-height: 280px;
 }
