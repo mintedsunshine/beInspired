@@ -28,4 +28,7 @@
     .rightColumn {
         order: 3;
     }
+    .verticalDisplayAds {
+        width: 90%;
+    }
 }
