@@ -1,6 +1,7 @@
 .verticalDisplayAds {
-    margin: 0 !important;
     padding: 0 !important;
-    width: 400px; /* Adjust the width as needed */
+    width: 336px; /* Set the width */
+    height: 500px; /* Set the height */
+    flex: 0 0 auto; /* Prevent the item from growing or shrinking */
     min-height: 280px;
 }
