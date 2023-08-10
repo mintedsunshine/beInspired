@@ -28,31 +28,32 @@ setInterval(updateCurrentTimeDateAndDay, 1000);
 // setup wake time and Message
 
 const MessagesList = {
-    0: "The night owl's wisdom guides the early risers. Embrace the tranquility of dawn.",
-    1: "As the world sleeps, you're already up and conquering the day. Keep shining!",
-    2: "Amidst the silence, you're scripting the start of a productive day. Good morning!",
-    3: "While the stars still twinkle, you're creating your own brilliance. Have an amazing day!",
-    4: "Rising with the sun, you're an inspiration to us all. Good morning!",
-    5: "Starting the day with the sunrise? Your energy is contagious. Have an amazing morning!",
-    6: "Waking up early speaks volumes about your commitment and drive. Have a productive day!",
-    7: "Rising before the rest of the world wakes up is your superpower. Have an incredible day!",
-    8: "The early bird gets more than just worms – they get success! Keep soaring high.",
-    9: "You're turning morning inspiration into daytime accomplishments. Keep up the great work!",
-    10: "The day is young, and so are your aspirations. Make it a day to remember!",
-    11: "Mid-morning and your productivity is already in full swing. Keep riding that momentum!",
-    12: "Lunchtime fuels both body and spirit. Keep rocking the day with your early start!",
-    13: "Afternoon sun and your determination continue to shine brightly. Keep pushing forward!",
-    14: "In the midst of the day's hustle, your early rise keeps you ahead of the game.",
-    15: "Afternoon is no match for your early morning zeal. Keep conquering your goals!",
-    16: "Late afternoon and your energy is as high as it was at dawn. Keep up the fantastic pace!",
-    17: "As the day winds down, your accomplishments continue to soar. Well done!",
-    18: "Evening sunsets remind us of the beauty in early beginnings. Reflect on a productive day!",
-    19: "Your early start laid the foundation for a day well-lived. Enjoy a well-deserved evening.",
-    20: "Twilight arrives, and you're still shining bright. Here's to your dedication!",
-    21: "Nighttime whispers its arrival, but your early morning echoes on. Keep inspiring!",
-    22: "In the quiet of the night, your early rise is a beacon of determination. Rest well!",
-    23: "The day comes full circle, and your early start remains an inspiration. Sleep tight!"
-  };
+  0: "The early bird catches the worm.",
+  1: "The journey of a thousand miles begins with a single step.",
+  2: "It's never too late to learn something new.",
+  3: "The only way to do great work is to love what you do.",
+  4: "The mind is everything. What you think you become.",
+  5: "The difference between ordinary and extraordinary is that little extra.",
+  6: "The only way to get started is to quit talking and begin doing.",
+  7: "The only thing that stands between you and your dream is the will to try and the belief that it is actually possible.",
+  8: "The only thing that is impossible is something you do not attempt.",
+  9: "The only thing that is constant is change.",
+  10: "The best way to predict the future is to create it.",
+  11: "The only way to know if you can achieve something is to try.",
+  12: "The best way to learn is by doing.",
+  13: "The only way to truly understand something is to teach it to someone else.",
+  14: "The more you learn, the more you realize you don't know.",
+  15: "A mind is a terrible thing to waste.",
+  16: "The only thing that is more powerful than knowledge is action.",
+  17: "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+  18: "The only way to stay ahead of the curve is to keep learning.",
+  19: "The only way to truly understand something is to experience it for yourself.",
+  20: "The only way to change the world is to start with yourself.",
+  21: "The only way to make a difference is to be different.",
+  22: "The only way to be truly happy is to be true to yourself.",
+  23: "The only way to live is to live in the present moment.",
+  24: "The only way to know your limits is to push them."
+};
 
 
 function setupMessage(){
