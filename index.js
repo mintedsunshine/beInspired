@@ -25,9 +25,9 @@ setInterval(updateCurrentTimeDateAndDay, 1000);
 
 
 
-// setup wake time and Message
+// setup hourly wisdom
 
-const MessagesList = {
+const hourlyWisdomList = {
   0: "The early bird catches the worm.",
   1: "The journey of a thousand miles begins with a single step.",
   2: "It's never too late to learn something new.",
@@ -56,17 +56,18 @@ const MessagesList = {
 };
 
 
-function setupMessage(){
+
+function setupHourlyWisdom(){
 
     var now = new Date();
 
-    var MessageElement = document.getElementById("message");
-    var message = "<i>" + MessagesList[now.getHours()] + "</i>"
+    var hourlyWisdomElement = document.getElementById("hourlyWisdom");
+    var hourlyWisdom = "<i>" + hourlyWisdomList[now.getHours()] + "</i>"
 
-    MessageElement.innerHTML = message;
+    hourlyWisdomElement.innerHTML = hourlyWisdom;
 }
 
-setupMessage()
+setupHourlyWisdom()
 
 
 
