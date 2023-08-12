@@ -1,0 +1,28 @@
+
+.leftColumn {
+    flex: 1;
+}
+.middleColumn {
+    flex: 3;
+}
+.rightColumn {
+    flex: 1;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .flexContainer {
+        flex-direction: column;
+    }
+    .leftColumn {
+        order: 2;
+    }
+    .middleColumn {
+        order: 1;
+    }
+    .rightColumn {
+        order: 3;
+    }
+    
+}

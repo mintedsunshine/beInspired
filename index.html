@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Your Day</title>
+    <link rel="stylesheet" type="text/css" href="globalStyles.css">
+    <link rel="stylesheet" type="text/css" href="index.css"> <!-- contains viewport media queries -->
+    <link rel="stylesheet" type="text/css" href="ads.css">
+    
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="about.html">About</a>
+        <a href="#">Diary</a>
+    </div>
+
+
+
+    <div class="flexContainer">
+        <div class="column leftColumn">
+            <p id="currentDay">Loading...</p>
+            <p id="currentDate">Loading...</p>
+        </div>
+        
+        <div class="column middleColumn">
+            <p id="currentTime">Loading...</p>
+            </br>
+            <p id="hourlyWisdom">Loading...</p>
+        </div>
+
+        <div class="column rightColumn verticalAds multiplexAdContainer">
+            <h1>Vertical Display ADS</h1>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <div class="flexContainer">
+        <div class="column leftColumn verticalAds multiplexAdContainer">
+            <h1>Vertical Display ADS</h1>
+            <p>Loading...</p>
+        </div>
+        <div class="column middleColumn">
+            <h1>Quotes</h1>
+            <p id="todaysQuote">Loading...</p>
+        </div>
+        <div class="column rightColumn verticalAds multiplexAdContainer">
+            <h1>Vertical Display ADS</h1>
+            <p>Loading...</p>
+            
+        </div>
+    </div>
+
+    
+    <script src="index.js"></script>
+    <script src="adsLoader.js"></script>
+</body>
+</html>
