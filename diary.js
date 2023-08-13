@@ -35,8 +35,7 @@ fetch(url, {
                     <h1>${title}</h1>
                     <p>${diary}</p>
                 </div>
-                <div class="column horizontalAds infeedAdContainer">
-                    <p>Loading...</p>    
+                <div class="column horizontalAds infeedAdContainer">  
                 </div>
             `;
         }
