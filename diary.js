@@ -45,7 +45,7 @@ fetch(url, {
   
     diaries = allDiariesHTML
   
-    diariesContainerElement.innerHTML = todaysQuote
+    diariesContainerElement.innerHTML = diaries
 
     console.log(allDiariesHTML)
 
