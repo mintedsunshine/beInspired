@@ -31,9 +31,12 @@ fetch(url, {
         for (let i = 0; i < diaries.length; i++) {
             const diary = diaries[i];
             diariesHTML += `
-                <div class="diary">
+                <div class="diary column">
                     <h1>${title}</h1>
                     <p>${diary}</p>
+                </div>
+                <div class="column horizontalAds infeedAdContainer">
+                    <p>Loading...</p>    
                 </div>
             `;
         }
