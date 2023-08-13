@@ -1,0 +1,14 @@
+/* override .flexContainer */
+.flexContainer {
+    max-width: 900px;
+    margin: 20px auto;
+    flex-direction: column;
+}
+
+.diary {
+    align-self: stretch;
+    /* max-width: 800px; */
+    margin: 20px 0;
+    padding: 40px;
+}
+
