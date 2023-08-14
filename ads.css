@@ -1,0 +1,25 @@
+.verticalAds {
+    padding: 0;
+    width: 360px; /* Set the width */
+    min-height: 100px; /* Set the height */
+    flex: 0 0 auto; /* Prevent the item from growing or shrinking */
+}
+
+.horizontalAds  {
+    align-self: stretch;
+    /* min-width: 360px;
+    max-width: 900px; */
+    min-height: 40px;
+}
+
+
+@media screen and (max-width: 450px) {
+    .verticalAds{
+        width: unset;
+        flex: 1 1 auto;
+        align-self: stretch;
+        
+    }
+
+}    
+
