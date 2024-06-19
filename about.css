@@ -6,6 +6,7 @@
 
 #about {
     align-self: stretch;
+    min-width: 0;
     /* max-width: 800px; */
     margin: 20px 0;
     padding: 40px;
