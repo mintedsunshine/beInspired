@@ -9,7 +9,7 @@ function updateCurrentTimeDateAndDay() {
     var currentDayElement = document.getElementById("currentDay");
     
     var now = new Date();
-    var currentTime = "<h1><strong>" + now.toLocaleTimeString() + "</strong></h1>";
+    var currentTime = "<h1><strong>" + now.toLocaleTimeString([], {hour: '2-digit', minute: '2-digit'}) + "</strong></h1>";
     var currentDate = "<h1><strong>" + now.toLocaleDateString() + "</strong></h1>";
     var currentDay = "<h1><strong>" + now.toLocaleDateString('en-US', { weekday: 'long' }) + "</strong></h1>";
     
@@ -19,7 +19,7 @@ function updateCurrentTimeDateAndDay() {
 }
 
 updateCurrentTimeDateAndDay();
-setInterval(updateCurrentTimeDateAndDay, 1000); 
+setInterval(updateCurrentTimeDateAndDay, 300000); 
 
 
 var now = new Date();
